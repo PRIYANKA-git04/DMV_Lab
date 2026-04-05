@@ -9,5 +9,5 @@ plt.ylabel("Y values (Dependent Variables)")
 
 plt.title("X-Y Axis Data Plot")
 plt.grid(True)
-
+# Also ran code with grid=False
 plt.show()
