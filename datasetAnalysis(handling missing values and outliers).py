@@ -56,7 +56,7 @@ IQR = Q3 - Q1
 outliers_after = ((numeric_df < (Q1 - 1.5 * IQR)) | 
                   (numeric_df > (Q3 + 1.5 * IQR)))
 
-print("\nOutliers count after capping:")
+print("\nOutliers count AFTER capping:")
 print(outliers_after.sum())
 
 
