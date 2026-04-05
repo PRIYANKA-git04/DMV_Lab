@@ -29,5 +29,4 @@ ani = animation.FuncAnimation(
     blit=True
 )
 
-# Show animation
 plt.show()
