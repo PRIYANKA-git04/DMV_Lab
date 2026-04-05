@@ -20,4 +20,5 @@ plt.ylabel("Sales")
 plt.title("Sales Distribution")
 
 plt.grid(True)
+# Also ran code with grid=False
 plt.show()
